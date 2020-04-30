@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.generalContainer {
+    display: flex;
+    flex-direction: column;
+}
+    header {
+        display: flex;
+        flex-direction: row;
+        background-color: #1EBEA5;
+        position: sticky;
+    }
+        header > div {
+            margin: 25px;
+        }
+        .logoContainer {
+            display: flex;
+            flex: 1;
+            justify-content: flex-end;
+            align-items: center;
+        }
+            .logoContainer > a > img {
+                width: 140px;
+            }
+        .navContainer {
+            display: flex;
+            flex: 3;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+            .navContainer > div {
+                font-size: 10pt;
+                color:white;
+                font-weight: 600;
+                margin: 25px;
+            }
+    section {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        margin-top: 75px;
+    }
+        section > article {
+            display: flex;
+            flex-direction: row;
+        }
+            section > article > .leftupContainer {
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+                justify-content: center;
+                margin: 25px;
+            }
+                section > article > .leftupContainer > .textContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: flex-end;
+                }
+                    section > article > .leftupContainer > .textContainer > h3 {
+                        font-size: 22pt;
+                        font-weight: normal;
+                        color: #1c1e21;
+                    }
+                    section > article > .leftupContainer > .textContainer > p {
+                        margin-top: 25px;
+                        width: 400px;
+                        color: rgba(0,0,0, 0.5);
+                        line-height: 26px;
+                        margin-bottom: 15px;
+                    }
+                    section > article > .leftupContainer > .textContainer > small {
+                        font-size: 8pt;
+                        opacity: 0.2;
+                    }
+                    section > article > .leftupContainer > .textContainer > .platformListContainer {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 15px;
+                    }  
+                        section > article > .leftupContainer > .textContainer > .platformListContainer > a {
+                            color: #1cb39b;
+                            line-height: 40px;
+                        }
+                            section > article > .leftupContainer > .textContainer > .platformListContainer > a > img {
+                                vertical-align: middle;
+                                margin-right: 5px;
+                            }
+            section > .downContainer {
+                margin-top: 100px;
+            }
+            section > article > .rightupContainer {
+                display: flex;
+                flex: 1;
+            }
+                section > article > .rightupContainer > img {
+                    height: 600px;
+                }
+            section > article > .leftdownContainer {
+                display: flex;
+                flex: 1;
+                justify-content: flex-end;
+            }
+                section > article > .leftdownContainer > .downTextContainer {
+                    background-color: #D0E9EA;
+                    padding: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+                    section > article > .leftdownContainer > .downTextContainer > h3 {
+                        font-size: 24px;
+                        font-weight: normal;
+                        color: #1c1e21;
+                        letter-spacing: .05em;
+                        margin-bottom: 50px;
+                        margin-top: 50px;
+                    }
+                    section > article > .leftdownContainer > .downTextContainer > p {
+                        width: 700px;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: rgba(0,0,0, 0.5);
+                    }
+                    section > article > .leftdownContainer > .downTextContainer > .contentPhone {
+                        background-image: url("file:///C:/Users/emre_/Desktop/webOdev2/assets/img/phone2.png");
+                        background-position: 50% 0%;
+                        background-repeat: no-repeat;
+                        height: 350px;
+                        width: 100%;
+                        background-size: auto 480px;
+                        margin-top: 50px;
+                    }
+            section > article > .rightdownContainer {
+                display: flex;
+                flex: 1;
+            }
+                section > article > .rightdownContainer > .rightDown {
+                    background-color: #EDF8F5;
+                    padding: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    margin-left: 50px;
+                }
+                    section > article > .rightdownContainer > .rightDown > .dot {
+                        height: 300px;
+                        width: 300px;
+                        background-color: #77D7C8;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        section > article > .rightdownContainer > .rightDown > .dot > .messageBox {
+                            background-color: #FFF;
+                            width: 200px;
+                            height: 50px;
+                            border-radius: 5px;
+                            display: flex;
+                        }
+                            section > article > .rightdownContainer > .rightDown > .dot > .messageBox > p {
+                                font-size: 14px;
+                                color: rgba(0,0,0, 0.5);
+                                margin: 15px;
+                            }
+                    section > article > .rightdownContainer > .rightDown > p {
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: rgba(0,0,0, 0.5);
+                        margin-top: 15px;
+                        width: 700px;
+                    }
+                    section > article > .rightdownContainer > .rightDown > h3 {
+                        font-size: 24px;
+                        font-weight: 300;
+                        letter-spacing: .05em;
+                        line-height: 29px;
+                    }
+    aside {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+        aside > button {
+            border-radius: 40px;
+            font-size: 16px;
+            font-weight:  500;
+            letter-spacing: .071em;
+            line-height: 19px;
+            padding: 18px 32px;
+            background-color: transparent;
+            border: 2px solid #77D7C8;
+        }
+            aside > button > a {
+                color: #1CB39B;
+            }
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+        footer > .upFooter {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #273443;
+        }           
+            footer > .upFooter > div {
+                display: flex;
+                flex-direction: column;
+                margin: 100px;
+            }
+            footer > .upFooter > div > div > a {
+                color: #FFF;
+                font-size: 12px;
+                line-height: 25px;
+            }
+            footer > .upFooter > div > div > a:hover {
+                text-decoration: underline;
+            }
+        footer > .downFooter {
+            display: flex;
+            flex-direction: row;
+            background-color: #232F3C;
+        }
+            footer > .downFooter > .copyright {
+                display: flex;
+                flex: 2;
+                justify-content: flex-end;
+                margin: 20px;
+            }
+                footer > .downFooter > .copyright > p {
+                    color: rgba(255, 255, 255, 0.5);
+                    font-size: 12px;
+                }
+            footer > .downFooter > .privacy {
+                display: flex;
+                flex: 6;
+                margin: 20px;
+            }
